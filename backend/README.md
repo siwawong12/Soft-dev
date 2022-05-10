@@ -1,22 +1,24 @@
-Example RESTFul API with Node.js
----
+# kmitl-test
 
-บทความ [ทำ Backend API ด้วย Node.js และ MongoDB กันดีกว่า](https://devahoy.com/blog/2019/08/build-api-with-express-and-mongoose/)
-
-## Demo
-
-* [GET /products](https://node-api-101.herokuapp.com/products)
-* [GET /products/:id](https://node-api-101.herokuapp.com/products/:id)
-
-## Usage
-
+## Project setup
 ```
-# Start
-npm start
-
-# Start with Nodemon
-npm run dev
-
-# Format with prettier
-npm run format
+yarn install
 ```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
